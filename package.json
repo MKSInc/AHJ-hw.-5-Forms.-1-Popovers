@@ -8,6 +8,12 @@
     "lint": "eslint .",
     "test": "jest --testPathPattern=./src/ --coverage --passWithNoTests"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      "^.+\\.html?$": "html-loader-jest"
+    }
+  },
   "repository": "https://github.com/MKSInc/AHJ-hw.-5-Forms.-1-Popovers.git",
   "author": "Maksim <pyshkov.maksim@gmail.com>",
   "license": "MIT",
@@ -23,6 +29,7 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1",
     "html-loader": "^1.3.2",
+    "html-loader-jest": "^0.2.1",
     "html-webpack-plugin": "^4.5.0",
     "jest": "^26.5.2",
     "mini-css-extract-plugin": "^1.0.0",
