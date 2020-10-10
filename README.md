@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/nsmyks23th2d0jwy?svg=true)](https://ci.appveyor.com/project/MKSInc/ahj-hw-5-forms-1-popovers)
+### [Gh-page](https://mksinc.github.io/AHJ-hw.-5-Forms.-1-Popovers/)
 # 5. Домашнее задание к лекции «Работа с HTML-формами»
 
 Правила сдачи задания:
