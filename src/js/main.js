@@ -1,2 +1,5 @@
-// eslint-disable-next-line no-console
-console.log('main.js run');
+import MainController from './MainController';
+
+const mainCtrl = new MainController();
+
+mainCtrl.init();
